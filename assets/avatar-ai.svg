@@ -15,7 +15,9 @@
       <stop offset="100%" stop-color="#e35cf0" />
     </linearGradient>
 
-    <linearGradient id="txt" x1="0%" y1="10%" x2="100%" y2="80%">
+    <!-- userSpaceOnUse: an objectBoundingBox gradient cannot paint the A's
+         horizontal crossbar, whose bounding box has zero height -->
+    <linearGradient id="txt" gradientUnits="userSpaceOnUse" x1="118" y1="112" x2="204" y2="184">
       <stop offset="0%" stop-color="#9adcff" />
       <stop offset="42%" stop-color="#7bb4ff" />
       <stop offset="100%" stop-color="#c65cff" />
